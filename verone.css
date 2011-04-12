@@ -1,0 +1,88 @@
+/* Reset styles */
+
+body, div, p, h1, h2, h3, h4, h5, h6, ul, ol, li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	position: relative;
+}
+
+/* Begin Styling */
+
+body {
+	color: #333;
+	font-family: "HelveticaNeueLT Pro 45 Lt", Helvetica, Arial, Sans-Serif;
+	font-size: 16px;
+	width: 970px;
+	margin: 7px auto;
+}
+
+/* Header */
+
+#navigation {
+  text-transform: capitalize;
+  position: relative;
+}
+
+#navigation li#name a{
+  background-color: #b40033;
+  font-size: 1.5em;
+  font-family: "HelveticaNeueLT Pro 35 Lt", Sans-Serif;
+  font-weight: lighter;
+  color: #fff;
+  padding: 17px;
+}
+
+#navigation li#name a:hover{
+  text-transform: capitalize;
+  background-color: #b40033;
+  color: #ccc;
+}
+
+#navigation li {
+  list-style: none;
+  display: inline;
+}
+
+#navigation img {
+	border: none;
+	opacity: 0.5;
+	padding: 10px;
+	position: relative;
+	left: -13px;
+	bottom: -10px;
+}
+
+#navigation img:hover {
+	opacity: 0.2;
+}
+
+#navigation li:after {
+	content: "|";
+	color: #aaa;
+}
+
+#navigation li.none:after {
+	content: none;
+}
+
+#navigation li a:link,
+#navigation li a:visited {
+  color: #999;
+  text-decoration: none;
+  padding: 10px;
+}
+
+#navigation li a:hover,
+#navigation li a:active {
+  color: #ccc;
+  text-decoration: none;
+}
+
+#navigation li.selected a:link,
+#navigation li.selected a:visited,
+#navigation li.selected a:hover,
+#navigation li.selected a:active {
+  color: #444;
+  font-family: "HelveticaNeueLT Pro 55 Lt", Sans-Serif;
+}
