@@ -1,0 +1,87 @@
+/* reset styles */
+
+body, div, h1, h2, h3, h4, h5, h6, ul, ol, li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	position: relative;	
+}
+
+
+/* begin styling */
+
+
+body {
+	width: 970px;
+	}
+
+	
+#sidebar {
+
+		}
+	
+	
+#menus , #drinks , #reserve  {
+	float: right;
+	}
+	
+#menus {	
+	list-style-type: none;
+	margin-top: 280px;		
+}
+
+	
+#drinks {
+	list-style-type: none;
+	margin-top: 420px;
+	margin-right: -110px;
+	}
+	
+#reserve {
+	list-style-type: none;
+	margin-top: 560px;
+	margin-right: -145px;
+	}
+
+#menus h5, #drinks h5, #reserve h5 {
+	font-family: "HelveticaNeueLT Pro 55 LT", sans-serif;
+	font-size: 1em;
+	margin-right: 50px;
+	list-style-type: none;
+	color: #444444;
+	line-height: 40px;
+	letter-spacing: 1px;
+	font-weight: light;
+	}
+	
+
+#categories li:before, #categories1 li:before, #categories2 li:before {
+	content: "\00BB";
+	color: #b40033;
+	}
+	
+#categories, #categories1, #categories2, #categories a, #categories1 a, #categories2 a {
+	font-family: "HelveticaNeueLT Pro 45", sans-serif;
+	font-size: .75em;
+	color: #777777;
+	line-height: 17px;
+	list-style-type: none;
+	text-decoration: none;
+	}
+	
+#categories a, #categories1 a, #categories2 a {
+	font-size: 1em;
+	}
+	
+#categories a:hover, #categories1 a:hover, #categories2 a:hover {
+	color: #ccc;
+	}
+#categories a:active, #categories1 a:active, #categories2 a:active {
+	color: #b40033;
+	}	
+	
+	
+
+
+
+	
